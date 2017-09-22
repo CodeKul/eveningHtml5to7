@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Forms Elements</title>
+</head>
+
+<body>
+	<form>
+		<p> Select Input
+			<select name="cities">
+				<option value="1">Pune</option>
+				<option value="2">Mumbai</option>
+				<option value="3">Nashik</option>
+				<option value="4">Kolaphur</option>
+			</select>
+		</p>
+		<!--<p>Select Input Selected
+			<select name="cities">
+				<option value="1">Pune</option>
+				<option value="2">Mumbai</option>
+				<option value="3" selected>Nashik</option>
+				<option value="4">Kolaphur</option>
+			</select>
+		</p>-->
+		<p><textarea name="discription"></textarea></p>
+		<p><button type="submit">Submit</button></p>
+		<p><button type="button">This is Button</button></p>
+		<p><button type="clear">Clear</button></p>
+		<p><button type="reset">Reset</button></p>
+
+		<p>
+			<input list="courses" name="courses">
+			<datalist id="courses">
+				<option value="HTML">HTML</option>
+				<option value="CSS">CSS</option>
+				<option value="javaScript">javaScript</option>
+				<option value="jQuery">jQuery</option>
+			</datalist>
+		</p>
+	</form>
+	<form action="/action_page.php">
+		Username: <input type="text" name="user"> Encryption: <keygen name="security">
+		<input type="submit">
+	</form>
+</body>
+
+</html>

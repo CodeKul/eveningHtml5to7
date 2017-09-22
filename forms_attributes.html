@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Forms Attributes</title>
+	</head>
+	<body>
+	 <form>
+		 <p>Readonly<input type="text" name="name" value="melayer" readonly></p>
+		 <p>Disabled<input type="text" name="name" value="codekul" disabled></p>
+		 <p>Size<input type="text" name="size" size="50"></p>
+		 <p>Maxlengh<input type="text" name="maxlenght" maxlength="5"></p>
+	</form>
+	<form autocomplete="on">
+	<p>Name: <input type="text" name="name"></p>
+	<p>Email: <input type="email" name="email" autocomplete="off"></p>
+	<p><input type="submit"></p>
+	</form>
+	
+	<form novalidate>
+	<p>Email: <input type="email" name="email" autocomplete="off"></p>
+	<p><input type="submit"></p>
+	</form>
+	
+	<form id="outof">
+	<p>Name: <input type="text" name="name"></p>
+	<p><input type="submit"></p>
+	</form>
+	<p>Email: <input type="email" name="email" form="outof"></p>
+	
+	<form>
+		<p>Images: <input type="file" name="file" multiple></p>
+		<p><input type="submit"></p>
+	</form>
+	
+	<form>
+		<p>Place Holder: <input type="text" name="name" placeholder="Place Holder"></p>
+		<p><input type="submit"></p>
+	</form>
+	
+	<form>
+		<p>Step: <input type="number" name="number" step="2"></p>
+		<p><input type="submit"></p>
+	</form>
+	</body>
+</html>
