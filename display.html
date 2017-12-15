@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title></title>
+    <style>
+        ul {
+            background-color: #563d7c;
+            margin: -10px;
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 20px;
+        }
+
+        li:hover {
+            background-color: darkblue;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 15px;
+        }
+
+        .main {
+            margin: 25px;
+        }
+
+        .left,
+        .right {
+            height: 40%;
+            width: 40%;
+        }
+
+        .left {
+            float: left;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .left h1{
+            color: #563d7c;
+            font-size: 45px;
+            font-weight: bolder;
+            
+        }
+        .left p{
+            color: #000;
+            font-size: 22px;
+            line-height: 1.2;
+            
+        }
+
+        .right {
+            float: right;
+            padding: 50px;
+        }
+
+        .clear {
+            
+        }
+        button{
+            background-color: transparent;
+            color: #563d7c;
+            font-size: 20px;
+            padding: 13px 30px;
+            margin: 15px;
+            border-radius: 6px;
+            border: 1px solid #563d7c; 
+            box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+        }
+        .first:hover{
+            background-color: #563d7c;
+            color: white;
+        }
+        .sec:hover{
+            background-color: #868e96;
+            color: white;
+        }
+        .intro{
+            clear: both;
+            text-align: center;
+            padding: 15px 200px 0px 200px;   
+        }
+        .intro h2{
+            color: #293a46;
+            padding: 0px;
+        }
+        .intro p{
+            padding: 0px 45px;
+            font-size: 18px;
+        }
+        .intro a{
+            text-decoration: none;
+            font-size: 20px;
+            color: #563d7c;
+        }
+        .intro button{
+            padding: 10px 30px;
+            background-color: #563d7c;
+            color: white;
+            border: 1px solid #563d7c; 
+            box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+        }
+        .services{
+           text-align: center;
+            padding: 15px 25px;
+        }
+        .services div{
+	        height: 150px;
+            width: 250px;
+            display: inline-block;
+            padding: 15px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="border.html">Home</a></li>
+        <li><a href="border.html">About US</a></li>
+        <li><a href="border.html">Services</a></li>
+        <li><a href="border.html">Gallery</a></li>
+        <li><a href="border.html">Contact US</a></li>
+    </ul>
+    <div myclass="main">
+        <div class="left">
+            <h1>Bootstrap</h1>
+            <p>
+                Build responsive, mobile-first projects on the web with the world's most popular front-end component library. Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+            </p>
+            <button type="button" class="first">Get Started</button>
+            <button type="button" class="sec">Download</button>
+        </div>
+        <div class="right">
+            <img src="https://getbootstrap.com/assets/img/bootstrap-stack.png" height="80%" width="80%">
+        </div>
+    </div>
+    <div class="intro">
+        <h2>Free updates and support</h2>
+        <p>Bootstrap Themes all include free updates, including compatibility upgrades for Bootstrap patches and even Bootstrap 4. Need help? Shoot us an email at </p>
+        <a href="#">themes@getbootstrap.com.</a>
+        <p><button type="button">Read more in our FAQ</button></p>
+    </div>
+    <div class="services">
+        <div>
+            <span><i class="fa fa-android" aria-hidden="true"></i></span>
+            <h4>Technical support</h4>
+            <p>We're here to help with your Bootstrap Themes questions. Shoot us an email at themes@getbootstrap.com and we'll get back to you ASAP.</p>
+        </div>
+        <div>
+            <span><i class="fa fa-apple" aria-hidden="true"></i></span>
+            <h4>Free updates</h4>
+            <p>
+Each theme comes with updates for the life of the theme. This means you'll never pay for any bug-fixes and compatibility upgrades for your theme, ever.</p>
+        </div>
+        <div>
+           <span><i class="fa fa-github-alt" aria-hidden="true"></i></span>
+            <h4>Licenses</h4>
+            <p>All our themes have two simple licenses. Our Multiple Use License is for building sites for yourself and your clients. Our Extended License is for redistrubtion and resale.</p>
+        </div>
+    </div>
+</body>
+
+</html>
